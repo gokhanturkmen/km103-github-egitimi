@@ -12,7 +12,7 @@ app.get('/km103', (req: Request, res: Response) => {
 });
 
 app.post('/km103', (req: Request, res: Response) => {
-  res.send('Post yapiyorum.');
+  res.send('Post yapiyoruz.');
 });
 
 app.listen(port, () => {
