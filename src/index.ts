@@ -11,6 +11,10 @@ app.get('/km103', (req: Request, res: Response) => {
     res.send('Hello KM103!');
 });
 
+app.post('/km103', (req: Request, res: Response) => {
+  res.send('Post yapiyoruz.');
+});
+
 app.listen(port, () => {
   console.log(`Server started at http://localhost:${port}`);
 });
